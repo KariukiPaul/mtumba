@@ -1,0 +1,9 @@
+# Ignore sensitive files
+confid.php
+
+# Ignore system files
+*.log
+*.tmp
+
+# Ignore IDE files
+.vscode/

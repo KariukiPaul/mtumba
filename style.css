@@ -1,0 +1,138 @@
+#leftpane{
+	left:0px;
+	transition:1s;
+}
+.col1{
+	width:100%;
+	max-width: 250px;
+	background-color:black;
+	float:left;
+	padding:10px;
+	color:white;
+	text-align: center;
+}
+#bar2{
+	display:none;
+}
+.col2{
+	width: 100%;
+	background-color: blue;
+	padding:10px;
+	color: white;
+	text-align: center;
+}
+.user{
+	float: right;
+	font-size: 24px;
+	margin-top: -40px;
+	cursor: pointer;
+	color:white;
+	width: 100%;
+	text-align: right;
+	margin-right: 10px;
+	padding:7px;
+}
+.user:hover{
+	color:#ccc;
+}
+
+.dropdown{
+	width: 230px;
+	background-color: #eee;
+	color:#333;
+	float:right;
+	margin-top: 35px;
+	margin-right:-8px;
+	border-radius: 0px 0px 0px 10px;
+}
+.item{
+	padding:10px;
+}
+.item:hover{
+	cursor: pointer;
+	background-color:#ccc;
+}
+.content{
+	display: none;
+	position: absolute;
+	background-color: #eee;
+	right:0;
+}
+.dropdown:hover .content{
+	display: block;
+}
+.rightpane{
+	width:100%;
+	max-width: 250px;
+	background-color:rgb(14, 242, 52);
+	float:left;
+	color:white;
+	height: 100%;
+}
+
+.ritem{
+	padding:10px;
+}
+.ritem:hover{
+	background-color: #333;
+	cursor: pointer;
+}
+.inner{
+	padding: 20px;
+	padding-left:270px;
+	padding-top:160px;
+	transition: 1s;
+
+}
+.menu{
+	padding:10px;
+	margin-right: -30px;
+	color:#333;
+	cursor: pointer;
+	float:right;
+}
+.box{
+	width:33.33%;
+	float:left;
+	cursor:pointer;
+}
+.boxinner{
+	width: 90%;
+	padding:20px;
+	text-align: center;
+	margin:auto;
+	color:white;
+	min-height: 200px;
+	border-radius: 10px;
+}
+.header{
+	position:sticky;
+	top:0px;
+}
+.rightpane{
+	position: fixed;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .box{
+  	width:100%;
+  	margin-top:10px;
+  }
+  #leftpane{
+  	left:-250px;
+  }
+  .inner{
+  	width: 100%;
+  	padding-left:20px;
+  }
+  .col1{
+  	display: none;
+  }
+  .col2{
+  	padding-left:150px;
+  }
+
+}
