@@ -153,7 +153,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `fname`, `lname`, `gender`, `phone`, `email`, `pass`, `date`) VALUES
-(1, 'Kim', 'Doe', 'Male', '0797786295', 'admin@gmail.com', 'admin', '0000-00-00');
+(1, 'Kim', 'Doe', 'Male', '0701548235', 'admin@gmail.com', 'admin', '0000-00-00');
 
 --
 -- Indexes for dumped tables
