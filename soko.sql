@@ -153,7 +153,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `fname`, `lname`, `gender`, `phone`, `email`, `pass`, `date`) VALUES
-(1, 'Kim', 'Doe', 'Male', '0701548235', 'admin@gmail.com', 'admin', '0000-00-00');
+(1, 'Kim', 'Doe', 'Male', '0701548235', 'admin@gmail.com', '', '0000-00-00');
 
 --
 -- Indexes for dumped tables
@@ -186,7 +186,8 @@ ALTER TABLE `user`
 --
 -- AUTO_INCREMENT for dumped tables
 --
-
+ALTER TABLE `user` 
+  MODIFY `pass` int(255);
 --
 -- AUTO_INCREMENT for table `kibanda`
 --
